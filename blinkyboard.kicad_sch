@@ -1929,6 +1929,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "PAUSE"
+		(exclude_from_sim no)
+		(at 161.29 82.296 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "abe3b9c9-2875-4919-82a3-a9da380ae5e3")
+	)
 	(junction
 		(at 218.44 73.66)
 		(diameter 0)
@@ -2660,16 +2670,6 @@
 			(type default)
 		)
 		(uuid "ffbc940b-8695-41fb-b473-5b282f67c290")
-	)
-	(label "PAUSE"
-		(at 158.75 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e38991b7-4bee-444b-a597-7dc0dc598b87")
 	)
 	(global_label "OUT"
 		(shape input)
