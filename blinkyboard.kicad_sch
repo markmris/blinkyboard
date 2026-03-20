@@ -1929,6 +1929,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "1 - POWER PIN"
+		(exclude_from_sim no)
+		(at 139.7 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "11ab64bc-b833-4f53-99c6-efad6876964f")
+	)
+	(text "2 - GROUNDING PIN"
+		(exclude_from_sim no)
+		(at 141.986 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "70d38dc7-8468-434c-9ebe-267a253ab3e6")
+	)
 	(text "PAUSE"
 		(exclude_from_sim no)
 		(at 161.29 82.296 0)
@@ -2756,6 +2776,73 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 134.62 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09436110-93ab-4da5-9f86-7e83da65b5b9")
+		(property "Reference" "#PWR011"
+			(at 138.43 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 130.81 62.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 134.62 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e94502e-595d-43fa-8136-a65f4829062a")
+		)
+		(instances
+			(project ""
+				(path "/3b2e93e2-a2cf-49ab-9c21-692f479897da"
+					(reference "#PWR011")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -4589,6 +4676,73 @@
 			(project "blinkyboard"
 				(path "/3b2e93e2-a2cf-49ab-9c21-692f479897da"
 					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 134.62 64.77 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e91553c1-3b5f-464e-8ae1-3471cf8309a6")
+		(property "Reference" "#PWR012"
+			(at 128.27 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 130.81 64.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 134.62 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13029fc6-26e9-4cc4-880b-3e06d91f884e")
+		)
+		(instances
+			(project ""
+				(path "/3b2e93e2-a2cf-49ab-9c21-692f479897da"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
