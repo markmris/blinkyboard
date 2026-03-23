@@ -1,0 +1,5 @@
+Name,Purpose,Quantity,Total Cost (USD),Link,Distributor
+"Blinky Board Kit","Full assembly kit for blinky board",1,0.00,"","Hack Club"
+"PCB","Printed Circuit Board for components",1,2.07,"","JLCPCB"
+"SW Push Button","Button for pause mechanic",1,1.99,"https://www.aliexpress.com/item/1005008792513944.html?spm=a2g0o.order_list.order_list_main.5.21ef1802peKHQx","AliExpress"
+"Resistors","Part of the pause button mechanic",1,1.17,"https://www.aliexpress.com/item/33017467550.html?spm=a2g0o.order_list.order_list_main.10.67dd1802oBb6Uw","AliExpress"
